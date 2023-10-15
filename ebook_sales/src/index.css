@@ -96,6 +96,19 @@ em, li {
 }
 
 footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
   text-align: center;
-  font-size: 45px;
+  border-top: 1px solid #ccc;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer img {
+  width: 100px;
+  height: 100px;
 }
