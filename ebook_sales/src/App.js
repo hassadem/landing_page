@@ -152,6 +152,6 @@ function Body() {
 
 function Footer() {
   return <footer>
-    Click <a href="https://selar.co/ss5187" style={{backgroundColor: "#d32f", color: "green"}}>here</a> to learn more and download your ebook today!
+    Click <a href="https://selar.co/ss5187" style={{backgroundColor: "black", color: "#d32f"}}>here</a> to learn more and download your ebook today!
   </footer>
 }
