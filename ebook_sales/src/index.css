@@ -63,26 +63,6 @@ p {
   padding: 20px 0;
 }
 
-p:before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 1px;
-  height: 100%;
-  background-color: #000;
-}
-
-p:after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 1px;
-  height: 100%;
-  background-color: #000;
-}
-
 a {
   text-transform: uppercase;
   text-decoration: none;
@@ -111,4 +91,8 @@ footer a {
 footer img {
   width: 100px;
   height: 100px;
+}
+
+@media screen and (max-width : 768px) {
+  
 }
