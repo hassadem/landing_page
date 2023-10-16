@@ -49,12 +49,22 @@ em, li {
 }
 
 footer {
-  background-color: #000;
-  color: #fff;
   padding: 20px;
   text-align: center;
   border-top: 5px solid #ccc;
 }
+
+button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d32f;
+  color: black;
+}
+
 
 footer a {
   color: #fff;

@@ -151,7 +151,14 @@ function Body() {
 }
 
 function Footer() {
-  return <footer>
-    Click <a href="https://selar.co/ss5187" style={{backgroundColor: "black", color: "#d32f"}}>here</a> to learn more and download your ebook today!
-  </footer>
+  return (
+    <footer>
+      <a href="https://selar.co/ss5187">
+
+      <button type="button" style={{ backgroundColor: "black", color: "#d32f", fontSize: 40 }}>
+        BUY NOW!
+      </button>
+      </a>
+    </footer>
+  );
 }
