@@ -61,11 +61,10 @@ footer a {
   text-decoration: none;
 }
 
-footer img {
-  width: 100px;
-  height: 100px;
-}
-
 @media screen and (max-width : 768px) {
-  
+  p {
+    font-size: 25px;
+    margin: 15px 0;
+    padding: 15px 0;
+  }
 }
